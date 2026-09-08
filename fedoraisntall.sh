@@ -25,6 +25,7 @@ install_flatpaks(){
     flatpak install io.ente.auth -y
     flatpak install md.obsidian.Obsidian -y
     flatpak install com.rtosta.zapzap -y
+    flatpak install org.nickvision.tubeconverter -y
 }
 
 install_rpm(){
@@ -40,3 +41,6 @@ extra_config(){
     mkdir /home/$USER/Vídeos/'OBS Rec'
 
 }
+
+install_flatpaks
+extra_config
